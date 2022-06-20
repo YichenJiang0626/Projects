@@ -641,29 +641,3 @@ void print_move(board_t board, int nummove, char y1, int x1, char y2, int x2, ch
 /*********************************/
 /* ALGORITHMS ARE FUN */
 /* THE END -------------------------------------------------------------------*/
-
-
-
-/*
-
-discard_tree(root, 0);
-
-
-
-
-
-void discard_tree(node_t* root, int depth) {
-    int i;
-    if (root == NULL) {
-        return;
-    }
-    if (root->num_children != 0 || depth < 2) {
-        discard_tree(, depth+1);
-    }
-    free(root);
-    root = NULL;
-
-}
-*/
-
-
